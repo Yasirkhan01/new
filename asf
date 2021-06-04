@@ -1,0 +1,118 @@
+//Assingment1
+
+
+// var a = +prompt("Enter your value English Subject Name")
+// var b = +prompt("Enter your value Math Subject Name")
+// var c = +prompt("Enter your value Urdu Subject Name")
+// var ObtainMark = a + b + c
+// var percent = (ObtainMark/300)*100
+// document.write("Total Marks : 300 <br>")
+// document.write("obtainMarks : ",ObtainMark ,"<br>")
+// document.write("Percentage : ", percent, "<br>")
+// if(percent >=80){
+//     document.write("Grade : You Got A-One Grade")
+//     document.write(" <br>Remarks :Excelent Effort")
+// }
+// else if(percent >=70 && percent <=79){
+//     document.write("You Got A Grade")
+//     document.write(" <br>Remarks :Good Effort")
+// }
+// else if(percent >=60 && percent <=69){
+//     document.write("You Got B Grade")
+//     document.write(" <br> Remarks :Improve your Effort")
+// }
+// else if(percent >=50 && percent <=59){
+//     document.write("You Got C Grade")
+//     document.write(" <br> Remarks :Highly Improve you Effort")
+// }
+// else{
+//     document.write("Sorry You Are fail <br>")
+// }
+
+
+
+
+
+//Assingment 2
+// var a = +prompt("Write any one number 1-10")
+// if(a==5)
+// {
+//     document.write("BINGO!")
+// }
+// else if(a==6){
+//     document.write("You Are close enough")
+// }
+// else{
+//     document.write("Try Again")
+// }
+// Assignment 3
+// var a = +prompt('Enter Temperature below 51')
+// if( a >= 40){
+//     document.write("Its Too Hot Today")
+// }
+// else if( a >= 30 && a<=39){
+//     document.write("Its Too Hot Today")
+// }
+// else if( a >= 20 && a<=29){
+//     document.write("The Whether Today is normal")
+// }
+// else if( a >= 10 && a<=19){
+//     document.write("OMG! Today's weather is so Cool")
+// }
+// else{
+//     document.write('Extra Ordinary Cool Temp Today')
+// }
+
+
+
+/*Assignment 4
+var a =+prompt("Enter Your First Number")
+var opr = prompt('Enter Airthematic Operator like +,-,*,/')
+var b =+prompt("Enter Your Second Number")
+switch (opr) {
+    case "+":
+        document.write('Your Sum is ',a+b)
+        break;
+        case "-":
+            document.write('Your Subtraction is ',a-b)
+            break;
+            case "*":
+                document.write('Your product is ',a*b)
+                break;
+        case "/":
+        document.write('Your divide is ',a/b)
+        break;
+    default:
+        document.write("Enter Valid Operator")
+        break;
+}*/
+
+
+
+
+//Assingment 5
+// var a = "Yasir"
+// var b = prompt("Enter Your password")
+// if(a === b){
+//     alert('Your Password is Correct')
+// }
+// else{
+//     alert('Please Enter Correct Password')
+// }
+
+
+// //Assignment 6
+// var a =["Apple","Samsung","Infinix","MI"]
+// document.getElementById('A1').innerHTML= a[0]
+// document.getElementById('A2').innerHTML = a[1]
+// document.getElementById('A3').innerHTML = a[2]
+// document.getElementById('A4').innerHTML = a[3]
+
+//Assignment 7
+// var a = +prompt('Enter A number for table')
+// var j = +prompt('Enter value')
+// for(var i = 1; i<=j ;i++)
+// {
+//     var total = a*i
+//  document.write(a ,"","*","",i,"",'=',"",total,'<br>')
+// }
